@@ -1,0 +1,41 @@
+alexandria is a simple, lightweight php based open source e-book sharing application!
+With the source code itself, there is alot to be desired in terms of features, but as its open source this gives it
+the opportunity for other programmers to expand it for their use.
+
+now that the description is out of the way, here is a run through of what each of the pages do. 
+------------------------------------------------------------------------------------------------
+
+1. pdo_include.php 
+-alexandria uses pdo_include since this allows users to use multiple databases, the one I currently work with is mysql
+create a database, connect the username to it, add the username, password, and database name to the pdo_include and the rest of it works
+(mysql file coming soon)
+
+2.header.php
+this file is included on each page, it includes the top links as well as the pdo_include so you only 
+have to include one php file with every page.
+
+3.booksearch.php
+form page that allows search for the book
+
+4.authornamesearch.php / booknamesearch.php / categorysearch.php / isbnsearch.php / filenamesearch.php / yearpublishedsearch.php
+these files go with the booksearch.php and send back the results of a search done for each of those by its file name 
+my plan in the future is to make them one file, and one file only, at the moment however... I simply haven't got to it yet
+
+5.pdfuploader.php
+uploads the php file, creates a directory for the book based on unix timestamp and includes the header.php and the booklogic.php page
+
+6.pdfupload.php
+form that sends to pdfuploader.php
+
+7.index.php
+home page that includes the header and a brief mission statement for the project if so desired
+
+8. README
+see README
+
+9.booklogic.php
+the booklogic.php is called upon every time the link for a book is opened. upon being opened it uses a database call to pull up all 
+relevent information about the book
+
+
+
