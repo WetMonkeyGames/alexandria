@@ -4,7 +4,7 @@ the opportunity for other programmers to expand it for their use.
 
 the directories contain the following
 
-1. alexandria source code 0.1
+1. alexandria source code 0.2
 the initial barebones plain as white rice source code for the pdf upload, 
 left without styling to allow programmers to build their own ajax design etc
 
