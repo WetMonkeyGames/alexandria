@@ -17,9 +17,9 @@ have to include one php file with every page.
 3.booksearch.php
 form page that allows search for the book
 
-4.authornamesearch.php / booknamesearch.php / categorysearch.php / isbnsearch.php / filenamesearch.php / yearpublishedsearch.php
-these files go with the booksearch.php and send back the results of a search done for each of those by its file name 
-my plan in the future is to make them one file, and one file only, at the moment however... I simply haven't got to it yet
+4.booksearched
+searches the database based on selective queries and allows multiple queries through a single line of code
+(aka this fixes the annoying stuff
 
 5.pdfuploader.php
 uploads the php file, creates a directory for the book based on unix timestamp and includes the header.php and the booklogic.php page
